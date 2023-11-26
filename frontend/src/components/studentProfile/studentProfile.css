@@ -1,0 +1,37 @@
+.profile {
+  background-color: #f7f8fa;
+  width: 100vw;
+  height: 100vh;
+}
+
+.profileToolHeader {
+  background-color: white;
+  justify-content: right;
+  padding-right: 50px !important;
+}
+
+.studentProfileHeaderLeft {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.studentProfileHeaderLeftText {
+  font-size: 24px;
+  font-weight: 600;
+  padding-left: 5px;
+}
+
+.profileHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.profilePic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: brown;
+  margin-right: 10px;
+}

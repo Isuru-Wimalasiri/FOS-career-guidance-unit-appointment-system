@@ -1,0 +1,32 @@
+.profileEdit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.profileEditGrid {
+  padding: 30px;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.profileEditText {
+  border-bottom: 20px !important;
+}
+
+.profileBtnCancel:hover {
+  border: #66bb6a;
+  color: white;
+  background-color: #66bb6a;
+}
+
+.profileBtnSave:hover {
+  background-color: #4b8c4e;
+}

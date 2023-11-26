@@ -1,0 +1,58 @@
+.department,
+.advisor {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: calc(100% - 100px);
+  border-radius: 5px;
+}
+.departmentInput,
+.advisorInput {
+  border: 2px solid #acadb4;
+  display: flex;
+  flex-direction: row;
+  height: 3rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  border-radius: 2px;
+}
+
+.degreeLabel {
+  font-weight: 500;
+  width: 12rem;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.selector {
+  display: block;
+  height: 100%;
+  font-weight: 600;
+  width: calc(100% - 12rem);
+  color: #434343;
+  outline: none;
+  border: 0;
+}
+
+@media (min-width: 350px) and (max-width: 550px) {
+  .department,
+  .advisor {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+  }
+
+  .degreeLabel {
+    width: 100px;
+  }
+  .selector {
+    width: 80%;
+    margin-left: 10px;
+    color: #232323;
+    background-color: #eeeeee;
+  }
+}

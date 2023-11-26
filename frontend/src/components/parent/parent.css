@@ -1,0 +1,230 @@
+.form {
+  height: 80vh;
+  width: 50vw;
+  min-width: 750px;
+  min-height: 500px;
+  margin-top: auto;
+  background: rgb(255, 255, 255);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border: 1px solid rgba(255, 255, 255, 0.913);
+}
+
+.formHeader {
+  height: 10 rem;
+  width: calc(100% - 100px);
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.headerContent ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerContent li {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.checkIcon {
+  color: #acadb4;
+  border-radius: 50%;
+  padding: 2px;
+}
+.activeCheck {
+  border-radius: 50%;
+  padding: 2px;
+  color: #ab47bc;
+}
+.successCheck {
+  border-radius: 50%;
+  padding: 2px;
+  color: #66bb6a;
+}
+
+.checkName {
+  font-weight: 500;
+  margin-left: 0.5rem;
+  color: #acadb4;
+}
+.activeCheckName {
+  font-weight: 500;
+  margin-left: 0.5rem;
+  color: #ab47bc;
+}
+.successCheckName {
+  font-weight: 500;
+  margin-left: 0.5rem;
+  color: #66bb6a;
+}
+
+.headerLine {
+  width: 8rem;
+  height: 0.15rem;
+  background-color: #acadb4;
+}
+.successheaderLine {
+  width: 8rem;
+  height: 0.15rem;
+  background-color: #66bb6a;
+}
+
+.formBody {
+  height: 330px;
+}
+
+.rdtTimeToggle {
+  width: 50px;
+  height: 50px;
+}
+
+.formFooter {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: end;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 20px;
+}
+
+.formBtn {
+  width: 7rem;
+  height: 3rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+  display: flex;
+  align-items: center;
+}
+
+#backBtn {
+  background-color: transparent;
+  color: #66bb6a;
+  border: #66bb6a solid 2px;
+  margin-right: 2rem;
+}
+
+#disableBack {
+  background-color: transparent;
+  color: #9cffa1;
+  border: #9cffa1 solid 2px;
+  margin-right: 2rem;
+}
+
+#backBtn:hover {
+  color: white;
+  background: #66bb6a;
+}
+
+#backBtn:active {
+  background-color: white;
+  transform: translateY(1.5px);
+  color: #66bb6a;
+}
+
+#nextBtn {
+  background-color: #ab47bc;
+  color: white;
+  border: #ab47bc solid 2px;
+  justify-content: end;
+}
+
+#nextBtn:hover {
+  color: #ab47bc;
+  background-color: white;
+}
+
+#nextBtn:active {
+  background-color: #ab47bc;
+  transform: translateY(1.5px);
+  color: white;
+}
+
+#disableNext {
+  background-color: #ab47bc;
+  color: white;
+  border: #ab47bc solid 2px;
+  justify-content: end;
+}
+
+.submitBtn {
+  width: 100%;
+}
+
+@media (min-width: 550px) and (max-width: 900px) {
+  .form {
+    min-width: 500px;
+    min-height: 400px;
+  }
+  .headerLine,
+  .successheaderLine {
+    width: 3rem;
+  }
+  .formBtn {
+    width: 7rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 550px) {
+  .form {
+    min-width: 95vw;
+    min-height: 400px;
+  }
+  .headerLine,
+  .successheaderLine {
+    width: 8vw;
+  }
+
+  .formHeader {
+    height: 10 rem;
+    width: calc(100% - 20px);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .footerContainer {
+    display: flex;
+    justify-content: end;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+  }
+
+  #backBtn {
+    margin-right: 0.5rem;
+  }
+
+  #disableBack {
+    margin-right: 0.5rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .headerLine,
+  .successheaderLine {
+    width: 3vw;
+  }
+}

@@ -1,0 +1,21 @@
+.mainMenu {
+  width: 80vw;
+}
+.mainOptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.menuOptionsCardIcon {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  color: #ab47bc;
+}
+
+.menuOptionsBtn {
+  justify-content: center;
+  padding-bottom: 20px !important;
+}

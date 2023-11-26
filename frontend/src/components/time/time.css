@@ -1,0 +1,48 @@
+.dater,
+.timer {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: calc(100% - 100px);
+  border-radius: 5px;
+}
+.timeInput {
+  border: 2px solid #acadb4;
+  display: flex;
+  flex-direction: row;
+  height: 3.2rem;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  border-radius: 2px;
+}
+
+.dateLabel {
+  font-weight: 500;
+  width: 12rem;
+  font-size: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+}
+
+.customDatePicker .MuiOutlinedInput-root,
+.customDatePicker .MuiOutlinedInput-root:hover,
+.customDatePicker .MuiOutlinedInput-root.Mui-focused {
+  border: none;
+  box-shadow: none;
+}
+
+.availableTime {
+  padding-right: 1rem;
+}
+
+@media (min-width: 350px) and (max-width: 550px) {
+  .dater,
+  .timer {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(100% - 20px);
+    border-radius: 5px;
+  }
+}

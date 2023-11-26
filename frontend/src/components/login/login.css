@@ -1,0 +1,70 @@
+.welcomeContainer {
+  width: 21rem;
+  height: 80vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  border-radius: 1rem;
+  -webkit-box-shadow: 8px 21px 43px -7px rgba(55, 55, 55, 0.86);
+  -moz-box-shadow: 8px 21px 43px -7px rgba(92, 92, 92, 0.86);
+  box-shadow: 8px 21px 43px -7px rgba(31, 31, 31, 0.86);
+}
+
+.welcomeHeader {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  letter-spacing: 0.1rem;
+}
+
+.welcomeImg {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomeMsg {
+  font-weight: 600;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.loginImg {
+  width: 18rem;
+}
+.signinBtn {
+  padding-top: 2rem;
+}
+
+#signBtn {
+  width: 13rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.2rem;
+  background-image: linear-gradient(to right, #366438, #5d2767);
+  border: 1px solid white;
+}
+
+.signinTxt {
+  padding-left: 1rem;
+  color: white;
+}
+
+#signBtn:hover {
+  background-image: linear-gradient(to right, #519354, #843991);
+}
+
+#signBtn:active {
+  background-image: linear-gradient(to right, #366438, #5d2767);
+  transform: translateY(1.5px);
+  color: white;
+}
